@@ -1,0 +1,339 @@
+<head>
+
+
+<script>
+
+function loseventos(){
+var elemento = document.getElementById("1");
+var elemento2 = document.getElementById("2");
+var elemento4 = document.getElementById("4");
+
+elemento4.addEventListener("click",aviso4,false);
+elemento.addEventListener("click",aviso1,false);
+elemento2.addEventListener("click",aviso2,false);
+  
+  
+}
+
+function aviso1(){  
+alert("Imangen de batalla") ;
+}
+
+function aviso2(){
+    
+ alert("Imagen de batalla beta con tiempo");
+  
+}
+
+function aviso4(){
+    
+ alert("Seleccion de personajes");
+  
+}
+
+window.addEventListener("load",loseventos,false);
+
+
+
+
+</script>
+
+
+<style>
+
+
+  #imagenes{
+    margin-top:20px;
+    padding:20px;
+    float:left;
+    margin-bottom: 20px;  
+  }
+
+
+figure{
+  
+float:left;
+  
+  
+}
+
+figure img{
+  margin-left:30px;
+  padding:4px;
+  background:#666;
+  border-radius:20px;
+  -webkit-transition:-webkit-transform 0.3s ease-in-out 0.1s;
+  box-shadow:#F00 5px 5px 10px ;
+}
+
+figure img:hover{
+
+-webkit-transform:scale(1.2); 
+}
+
+figcaption{
+font-family:Arial, Helvetica, sans-serif;
+font-size:1.3em;
+text-align:center;
+margin-top:5px; 
+  
+}
+
+
+
+
+#titulojuego{
+  color:red; 
+   font-size:20px;
+   font-family:Courier;
+   font-weight:bold;
+   font-style:italic;
+   line-height:30px;
+   letter-spacing:5px;
+   text-decoration:underline;
+   text-transform:capitalize;
+   text-align:left;
+   text-indent:30px;
+}
+
+#contenido{
+
+  border:2px #F00 dashed;
+
+  margin-left: 10px;
+
+  padding: 10px;
+
+
+
+}
+
+#relacionados{
+
+
+clear: both;
+
+float:none;
+
+margin-top:100px;
+}
+
+
+#video{
+
+  float: left;
+}
+
+
+
+#pie{
+
+  margin-top:30px;
+
+
+}
+
+
+</style>
+
+
+
+
+</head>
+
+
+
+
+<body background="img/espacio.jpg">
+
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top">
+    <img id="logo" src="img/MRBU Games.jpg" width="50" height="50" >
+    <div class="container">
+      <a class="navbar-brand" href="#">Juegos PS4</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a class="nav-link" id="home" href="#myCarousel">Mas Juegos
+              <span class="sr-only">(current)</span>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#imagenes">Imagenes</a>
+          </li>
+          
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Volver</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+<!-- Page Content -->
+<div class="container">
+
+  
+
+
+
+
+  
+  <!-- Portfolio Item Heading -->
+  <h1 style=color:White class="my-4">Juego Playstation 4
+  </h1>
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+  
+
+
+
+
+
+  <!-- Portfolio Item Row -->
+  <div class="row" id="video" >
+
+    <div class="col-md-8">
+    <iframe width="600" height="374" src=rogue.mp4 frameborder="0" allow="accelerometer; gyroscope; picture-in-picture" allowfullscreen></iframe>    </div>
+  </div>
+
+  
+    <div background color= white class="col-md-4" id="contenido" >
+      <h3 class="my-3" id="titulojuego">Assassins Creed Rogue</h3>
+      <h4 style=color:White>Rogue es un videojuego de acción-aventura y sigilo de ficción histórica, desarrollado por Ubisoft Sofia y publicado por Ubisoft. Fue lanzado en Norteamérica el 11 de noviembre de 2014, en Australia el 13 de noviembre y para Europa el 14 de noviembre, para las consolas PlayStation 3, Xbox 360. Posteriormente fue lanzado para Microsoft Windows, el 10 de marzo de 2015.</h4>
+      <h3 class="my-3" id="titulojuego">Información</h3>
+      <ul>
+        <li style=color:White>Genero</li>         <font COLOR="gray"> Acción  </FONT> 
+        <li style=color:White>Lanzamiento</li>    <font COLOR="gray"> 02/06/2017  </FONT>
+        <li style=color:White>Desarrollador</li>  <font COLOR="gray"> Bandai Namco  </FONT>
+        <li style=color:White>Voces </li>     <font COLOR="gray"> Inglés </FONT>
+      </ul>
+    </div>
+  <br>
+  <br>
+  <!-- /.row -->
+
+<div id="imagenes" >
+ <CENTER> <h1 style=color:White> IMAGENES </h1></CENTER>
+
+ <section >
+  <figure>
+      <img src="img/r1.jpg" id="1" alt="Foto 1" width="200" height="200">
+     <figcaption>
+      Foto 1 
+      </figcaption> 
+    </figure>
+   
+    <figure> 
+      <img src="img/r3.jpg"  id="2" alt="Foto 2" width="200" height="200">
+     
+      <figcaption>
+      Foto 2
+     </figcaption>
+    
+   </figure>
+   
+   
+   <figure>
+      <img src="img/r4.jpg"  id="3" alt="foto 3" width="200" height="200">
+     <figcaption>
+     Foto3
+    </figcaption>
+    </figure>
+    
+    <figure>
+       <img src="img/r2.png"  id="4" alt="" width="200" height="200">
+      
+      <figcaption>
+      Foto 4
+      </figcaption>
+   </figure>
+   
+
+   </section>
+</div>
+
+
+
+  <!-- Related Projects Row -->
+
+  <br>
+  <div id="final">
+
+    <div id="relacionados">
+    <center><h1 style=color:White >Juegos relacionados</h1></center>
+  </div>
+<br>
+<br>
+<br>
+<br>
+
+
+
+  <div id="myCarousel" id="mas" class="carousel slide" data-ride="carousel">
+  <!-- Indicators -->
+  <ol class="carousel-indicators">
+    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+    <li data-target="#myCarousel" data-slide-to="1"></li>
+    <li data-target="#myCarousel" data-slide-to="2"></li>
+  </ol>
+
+  <!-- Wrapper for slides -->
+  <div class="carousel-inner">
+    <div class="item active">
+      <center> <img src="img/teken.jpg" width="500" height="500" alt=" ">
+    </div>
+
+    <div class="item">
+      <center> <img src="img/sniper.jpg"  width="500" height="500"alt="">
+    </div>
+
+    <div class="item">
+      <center> <img src="img/fifa.jpg" width="500" height="500" alt=" ">
+    </div>
+  </div>
+
+  <!-- Left and right controls -->
+  <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="right carousel-control" href="#myCarousel" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+</div>
+
+
+
+
+
+
+
+
+ <footer class="py-5 bg-primary" id="pie">
+    <div class="container">
+      <p class="m-0 text-center text-white">Copyright &copy; Your Website 2019</p>
+    </div>
+    <!-- /.container -->
+  
+    <!-- Bootstrap core CSS -->
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  
+  <!-- Custom styles for this template -->
+  <link href="css/heroic-features.css" rel="stylesheet">
+  
+
+
+
+  </footer>
+
+ </body>

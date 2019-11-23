@@ -1,0 +1,48 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+#boton1{
+margin-top: 10px;
+}
+
+#cabezera{
+	margin-left:340px;
+}
+
+#barra{
+	margin-left:350px;	
+}
+
+#lista{
+	margin-bottom:2px;	
+}
+
+#paginas{
+	
+margin-left:370px;	
+	
+}
+
+#primera{
+	position:fixed;
+	
+	
+}
+
+#menu {
+	position: absolute;
+	left: -210px;
+	top: 50px;
+	width: 213px;
+	height: 232px;
+	background-color:#FF9;
+	padding:15px;
+	border-radius:15px;
+}
+
+#informacion{
+	
+	top:40px;
+	
+}
